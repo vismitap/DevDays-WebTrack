@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar-dark {
+  background-color: purple;
+  color: yellow;
+}
+.navbar-brand {
+  font-family: "Allison", cursive;
+  font-size: 29pt;
+}

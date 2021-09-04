@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.simpleCounter {
+  font-size: 20pt;
+  padding: 150px 0px 60px 0px;
+}
+#simpleCounterText {
+  width: 200px;
+}
+#addBtn,
+#subBtn {
+  width: 60px;
+  background-color: purple;
+}
+#heart {
+  font-size: 30pt;
+  color: red;
+  width: 18px;
+  padding-bottom: 30px;
+}
+#val {
+  margin: 5px;
+}
