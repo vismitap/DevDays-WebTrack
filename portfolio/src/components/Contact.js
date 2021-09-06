@@ -2,7 +2,7 @@ import "../styles.css";
 
 export default function About() {
   return (
-      <div className="contact">
+      <div className="contact" id="contact">
           <div className="contactText col-sm-8 mx-auto">
             <h3 style={{color:"brown"}}>Contact Me</h3>
              You can find me here:<br/>

@@ -2,7 +2,7 @@ import "../styles.css";
 
 export default function About() {
   return (
-      <div className="skills">
+      <div className="skills" id="skills">
           <div className="skillsText col-sm-8 mx-auto">
             <h3 style={{color:"brown"}}>Skills Possessed</h3>
             <h5>

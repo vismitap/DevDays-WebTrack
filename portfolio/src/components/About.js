@@ -2,7 +2,7 @@ import "../styles.css";
 
 export default function About() {
   return (
-      <div className="about">
+      <div className="about" id="about">
           <div className="aboutText col-sm-8 mx-auto">
             <h3 style={{color:"brown"}}>About Me</h3>
             <h5>Affinity for science and technology brought me to engineering. Engineering I feel, is not just a degree but it is the power of 'CREATION'.</h5><br/>
