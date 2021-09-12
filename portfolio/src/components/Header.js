@@ -1,9 +1,5 @@
 import "../styles.css";
 import {Navbar,Nav,Container } from 'react-bootstrap';
-import About from "./About";
-import Skills from "./Skills";
-import Contact from "./Contact";
-import Intro from "./Intro";
 
 export default function Header() {
   return (
