@@ -1,0 +1,79 @@
+html,body{
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+}
+.content{
+    height: fit-content;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px grey;
+    text-align: center;
+    z-index: 1;
+   }
+.title{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px grey;
+    color: white;
+    text-align: center;
+    }
+
+ .task{
+     background-color: rgb(203, 160, 243);
+     border-radius: 8px;
+     text-align: left;
+     padding: 10px;
+     margin: 10px; 
+ }
+
+ .delIcon{
+     padding-right: 20px;
+     font-size: 20pt;
+     animation: rotate 0.5s;
+     color: red;
+ }
+
+ .doneIcon{
+     color: green;
+     padding-right: 10px;
+     font-size: 20pt;
+     animation: rotate 0.5s;
+ }
+ @keyframes rotate{
+     0%{
+         transform: rotate(20deg);
+     }
+     100%{
+        transform: rotate(-10deg);
+    }
+  }
+
+ /* .createTaskIcon{
+     height: 30px;
+     width: 30px;
+     border-radius: 100%;
+     box-shadow: 2px 4px 7px rgb(203, 160, 243);
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transform: translate(-50px,114px);
+     z-index: 2;
+ } */
+
+ .createTaskIcon{
+     text-align: center;
+     background-color: rgb(134, 61, 252);
+     color: white;
+ }
+
+ .desc{
+     padding-left: 90px;
+     background-color: rgb(222, 208, 235);
+     border-radius: 8px;
+
+ }
